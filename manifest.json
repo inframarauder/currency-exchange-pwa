@@ -1,0 +1,26 @@
+{
+  "name": "Currency Exchange",
+  "short_name": "Curr. Exchange",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#17a2b8",
+  "theme_color": "#2d2d2d2d",
+  "icons": [
+    {
+      "src": "/icons/87.png",
+      "sizes": "87x87",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/10214.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
