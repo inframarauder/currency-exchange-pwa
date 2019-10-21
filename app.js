@@ -1,3 +1,16 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then(() => {
+      console.log("Service Worker registered");
+    })
+    .catch(err => {
+      console.log(err);
+    });
+} else {
+  console.log("This browser doesnt support service workers!");
+}
+
 const from_currencyEl = document.getElementById("from_currency");
 const from_ammountEl = document.getElementById("from_ammount");
 const to_currencyEl = document.getElementById("to_currency");
